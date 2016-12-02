@@ -1,4 +1,3 @@
-# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/eveonline/version'
@@ -9,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Igor Zubkov']
   spec.email         = ['igor.zubkov@gmail.com']
 
-  spec.summary       = %q{OmniAuth strategy for EveOnline}
-  spec.description   = %q{OmniAuth strategy for EveOnline}
+  spec.summary       = 'OmniAuth strategy for EveOnline'
+  spec.description   = 'OmniAuth strategy for EveOnline'
   spec.homepage      = 'https://github.com/biow0lf/omniauth-eveonline'
   spec.license       = 'MIT'
 
@@ -25,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'codeclimate-test-reporter'
 end

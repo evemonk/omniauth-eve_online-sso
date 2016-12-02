@@ -1,4 +1,4 @@
-require "omniauth/eveonline/version"
+require 'omniauth/eveonline/version'
 
 module Omniauth
   module Eveonline
