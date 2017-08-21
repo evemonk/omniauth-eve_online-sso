@@ -1,8 +1,6 @@
-# Omniauth::Eveonline
+# OmniAuth EveOnline SSO
 
-[![Build Status](https://travis-ci.org/biow0lf/omniauth-eveonline.svg?branch=master)](https://travis-ci.org/biow0lf/omniauth-eveonline)
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omniauth/eveonline`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omniauth/eve_online/sso`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -11,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-eveonline'
+gem 'omniauth-eve_online-sso'
 ```
 
 And then execute:
@@ -20,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install omniauth-eveonline
+    $ gem install omniauth-eve_online-sso
 
 ## Usage
 
@@ -34,10 +32,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/omniauth-eveonline.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/biow0lf/omniauth-eve_online-sso.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

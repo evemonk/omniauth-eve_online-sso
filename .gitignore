@@ -8,3 +8,7 @@
 /spec/reports/
 /tmp/
 /.ruby-version
+/.idea
+
+# rspec failure tracking
+.rspec_status
