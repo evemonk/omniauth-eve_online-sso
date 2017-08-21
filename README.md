@@ -56,7 +56,7 @@ Scopes can be one of two types. Old CREST or new ESI. ESI is recommended for all
 |esi-contracts.read_character_contracts.v1|Allows reading a character's contracts.|
 |esi-corporations.read_corporation_membership.v1|Allows reading a list of the ID's and roles of a character's fellow corporation members.|
 |esi-corporations.read_structures.v1|Allows reading a character's corporation's structure information.|
-|esi-corporations.write_structures.v1: Allows updating a character's corporation's structure information.|
+|esi-corporations.write_structures.v1|Allows updating a character's corporation's structure information.|
 |esi-fittings.read_fittings.v1|Allows reading information about fittings.|
 |esi-fittings.write_fittings.v1|Allows manipulating fittings.|
 |esi-fleets.read_fleet.v1|Allows reading information about fleets.|
