@@ -32,7 +32,7 @@ end
 
 ## Scopes
 
-Scopes can be one of two types. Old CREST or new ESI. ESI is recommended for all new apps.
+Scopes can be one of two types. Old *CREST* or new *ESI*. *ESI* is recommended for all new apps.
 
 ### ESI
 
