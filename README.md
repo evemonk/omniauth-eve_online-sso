@@ -1,6 +1,8 @@
 # OmniAuth EveOnline SSO
 
-[![Gem Version](http://img.shields.io/gem/v/omniauth-eve_online-sso.svg)][gem]
+[![Gem Version](https://img.shields.io/gem/v/omniauth-eve_online-sso.svg)][gem]
+
+[gem]: https://rubygems.org/gems/omniauth-eve_online-sso
 
 Eve Online OAuth2 Strategy for OmniAuth.
 
