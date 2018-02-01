@@ -3,6 +3,7 @@
 [![Gem Version](https://img.shields.io/gem/v/omniauth-eve_online-sso.svg)](https://rubygems.org/gems/omniauth-eve_online-sso)
 [![Gemnasium](https://img.shields.io/gemnasium/biow0lf/omniauth-eve_online-sso.svg)](https://gemnasium.com/biow0lf/omniauth-eve_online-sso)
 [![security](https://hakiri.io/github/biow0lf/omniauth-eve_online-sso/master.svg)](https://hakiri.io/github/biow0lf/omniauth-eve_online-sso/master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbiow0lf%2Fomniauth-eve_online-sso.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbiow0lf%2Fomniauth-eve_online-sso?ref=badge_shield)
 
 Eve Online OAuth2 Strategy for OmniAuth.
 
@@ -147,3 +148,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/biow0l
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbiow0lf%2Fomniauth-eve_online-sso.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbiow0lf%2Fomniauth-eve_online-sso?ref=badge_large)
