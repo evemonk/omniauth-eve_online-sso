@@ -34,10 +34,6 @@ end
 
 ## Scopes
 
-Scopes can be one of two types. Old *CREST* or new *ESI*. *ESI* is recommended for all new apps.
-
-### ESI
-
 |Scope|Description|
 |-----|-----------|
 |esi-assets.read_assets.v1|Allows reading a list of assets that the character owns.|
@@ -84,55 +80,6 @@ Scopes can be one of two types. Old *CREST* or new *ESI*. *ESI* is recommended f
 |esi-ui.write_waypoint.v1|Allows manipulating waypoints in game client remotely.|
 |esi-universe.read_structures.v1|Allows querying the location and type of structures that the character has docking access at.|
 |esi-wallet.read_character_wallet.v1|Allows reading of a character's wallet, journal and transaction history.|
-
-### CREST
-
-|Scope|Description|
-|-----|-----------|
-|characterAccountRead|Read your account subscription status.|
-|characterAssetsRead|Read your asset list.|
-|characterBookmarksRead|List your bookmarks and their coordinates.|
-|characterCalendarRead|Read your calendar events and attendees.|
-|characterChatChannelsRead|List chat channels you own or operate.|
-|characterClonesRead|List your jump clones, implants, attributes, and jump fatigue timer.|
-|characterContactsRead|Allows access to reading your characters contacts.|
-|characterContactsWrite|Allows applications to add, modify, and delete contacts for your character.|
-|characterContractsRead|Read your contracts.|
-|characterFactionalWarfareRead|Read your factional warfare statistics.|
-|characterFittingsRead|Allows an application to view all of your character's saved fits.|
-|characterFittingsWrite|Allows an application to create and delete the saved fits for your character.|
-|characterIndustryJobsRead|List your industry jobs.|
-|characterKillsRead|Read your kill mails.|
-|characterLocationRead|Allows an application to read your characters real time location in EVE.|
-|characterLoyaltyPointsRead|List loyalty points your character has for the different corporations.|
-|characterMailRead|Read your EVE Mail.|
-|characterMarketOrdersRead|Read your market orders.|
-|characterMedalsRead|List your public and private medals.|
-|characterNavigationWrite|Allows an application to set your ships autopilot destination.|
-|characterNotificationsRead|Receive in-game notifications.|
-|characterOpportunitiesRead|List the opportunities your character has completed.|
-|characterResearchRead|List your research agents working for you and research progress.|
-|characterSkillsRead|Read your skills and skill queue.|
-|characterStatsRead|Yearly aggregated stats about your character.|
-|characterWalletRead|Read your wallet status, transaction, and journal history.|
-|corporationAssetsRead|Read your corporation's asset list.|
-|corporationBookmarksRead|List your corporation's bookmarks and their coordinates.|
-|corporationContactsRead|Read your corporation’s contact list and standings.|
-|corporationContractsRead|List your corporation's contracts.|
-|corporationFactionalWarfareRead|Read your corporation's factional warfare statistics.|
-|corporationIndustryJobsRead|List your corporation's industry jobs.|
-|corporationKillsRead|Read your corporation's kill mails.|
-|corporationMarketOrdersRead|List your corporation's market orders.|
-|corporationMedalsRead|List your corporation's issued medals.|
-|corporationMembersRead|List your corporation's members, their titles, and roles.|
-|corporationShareholdersRead|List your corporation's shareholders and their shares.|
-|corporationStructuresRead|List your corporation's structures, outposts, and starbases.|
-|corporationWalletRead|Read your corporation's wallet status, transaction, and journal history.|
-|fleetRead|Allows real time reading of your fleet information (members, ship types, etc.) if you're the boss of the fleet.|
-|fleetWrite|Allows the ability to invite, kick, and update fleet information if you're the boss of the fleet.|
-|publicData|Allows access to public data.|
-|remoteClientUI|Allows applications to control the UI of your EVE Online client.|
-|structureVulnUpdate|Allows updating your structures' vulnerability timers.|
 
 ## Development
 
