@@ -37,6 +37,7 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 
 |Scope|Description|
 |-----|-----------|
+|publicData|Allows access to public data.|
 |esi-alliances.read_contacts.v1|Allows reading of an alliance's contact list and standings|
 |esi-assets.read_assets.v1|Allows reading a list of assets that the character owns|
 |esi-assets.read_corporation_assets.v1|Allows reading of a character's corporation's assets, if the character has roles to do so.|
@@ -117,7 +118,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/biow0lf/omniauth-eve_online-sso.
+Bug reports and pull requests are welcome on GitHub at https://github.com/evemonk/omniauth-eve_online-sso.
 
 ## License
 

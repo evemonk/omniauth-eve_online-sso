@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'OmniAuth strategy for EveOnline SSO'
   spec.description   = 'OmniAuth strategy for EveOnline SSO'
-  spec.homepage      = 'https://github.com/biow0lf/omniauth-eve_online-sso'
+  spec.homepage      = 'https://github.com/evemonk/omniauth-eve_online-sso'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
