@@ -15,11 +15,15 @@ gem 'omniauth-eve_online-sso'
 
 And then execute:
 
-    $ bundle
+```shell
+bundle
+```
 
 Or install it yourself as:
 
-    $ gem install omniauth-eve_online-sso
+```shell
+gem install omniauth-eve_online-sso
+```
 
 ## Usage
 
@@ -118,7 +122,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/evemonk/omniauth-eve_online-sso.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/evemonk/omniauth-eve_online-sso>.
 
 ## License
 

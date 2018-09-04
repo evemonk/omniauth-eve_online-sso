@@ -16,3 +16,4 @@ script:
   - bundle exec rake
   - bundle exec codeclimate-test-reporter
   - bundle exec rubocop
+  - bundle exec mdl README.md
