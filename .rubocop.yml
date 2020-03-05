@@ -1,12 +1,15 @@
-require: rubocop-thread_safety
-require: rubocop-rspec
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayStyleGuide: true
 
-inherit_from:
-  - .rubocop_general.yml
-  - .rubocop_rspec.yml
-  - .rubocop-thread_safety.yml
-  - .rubocop_todo.yml
+Style/StringLiterals:
+  Enabled: false
 
-Metrics/BlockLength:
-  Exclude:
-    - 'spec/**/*_spec.rb'
+Style/Documentation:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
