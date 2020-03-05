@@ -76,13 +76,11 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 |esi-corporations.read_facilities.v1|Allows reading a corporation's facilities|
 |esi-corporations.read_fw_stats.v1|Allows reading of a corporation's faction warfare statistics|
 |esi-corporations.read_medals.v1|Allows reading medals created and issued by a corporation|
-|esi-corporations.read_outposts.v1|Allows read access for listing and seeing details about a corporation's outposts|
 |esi-corporations.read_standings.v1|Allows reading a corporation's standings|
 |esi-corporations.read_starbases.v1|Allows reading of a character's corporation's starbase (POS) information, if the character has roles to do so.|
 |esi-corporations.read_structures.v1|Allows reading a character's corporation's structure information|
 |esi-corporations.read_titles.v1|Allows reading of a character's corporation's titles, if the character has roles to do so.|
 |esi-corporations.track_members.v1|Allows tracking members' activities in a corporation|
-|esi-corporations.write_structures.v1|Allows updating a character's corporation's structure information|
 |esi-fittings.read_fittings.v1|Allows reading information about fittings|
 |esi-fittings.write_fittings.v1|Allows manipulating fittings|
 |esi-fleets.read_fleet.v1|Allows reading information about fleets|
