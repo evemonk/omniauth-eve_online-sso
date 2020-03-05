@@ -5,6 +5,5 @@ gemspec
 
 gem 'awesome_print', require: 'ap'
 gem 'pry'
-gem 'rubocop'
-gem 'rubocop-rspec'
+gem 'standard'
 gem 'mdl', require: false
