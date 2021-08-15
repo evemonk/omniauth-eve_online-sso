@@ -32,7 +32,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get("/v2/oauth/verify").parsed
+        @raw_info ||= access_token.get("/oauth/verify").parsed
       end
     end
   end
