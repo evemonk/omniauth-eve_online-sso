@@ -1,7 +1,7 @@
 # OmniAuth EveOnline SSO
 
 [![Gem Version](https://img.shields.io/gem/v/omniauth-eve_online-sso.svg)](https://rubygems.org/gems/omniauth-eve_online-sso)
-[![security](https://hakiri.io/github/evemonk/omniauth-eve_online-sso/master.svg)](https://hakiri.io/github/evemonk/omniauth-eve_online-sso/master)
+[![security](https://hakiri.io/github/evemonk/omniauth-eve_online-sso/master.svg)](https://hakiri.io/github/evemonk/omniauth-eve_online-sso/main)
 
 Eve Online OAuth2 Strategy for OmniAuth.
 
@@ -31,7 +31,10 @@ Configure omniauth for use new strategy:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :eve_online_sso, ENV['EVE_ONLINE_SSO_CLIENT_ID'], ENV['EVE_ONLINE_SSO_SECRET_KEY'], scope: 'esi-wallet.read_character_wallet.v1'
+  provider :eve_online_sso,
+    ENV["EVE_ONLINE_SSO_CLIENT_ID"],
+    ENV["EVE_ONLINE_SSO_SECRET_KEY"],
+    scope: "publicData"
 end
 ```
 
