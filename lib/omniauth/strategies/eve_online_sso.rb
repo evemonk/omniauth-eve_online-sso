@@ -7,9 +7,10 @@ module OmniAuth
     class EveOnlineSso < OmniAuth::Strategies::OAuth2
       option :name, "eve_online_sso"
 
-      option :client_options, authorize_path: "/oauth/authorize",
-                              site: "https://login.eveonline.com/",
-                              proxy: ENV["http_proxy"] ? URI(ENV["http_proxy"]) : nil
+      option :client_options,
+        authorize_url: "/v2/oauth/authorize",
+        token_url: "/v2/oauth/token",
+        site: "https://login.eveonline.com/"
 
       uid { raw_info["CharacterID"] }
 
