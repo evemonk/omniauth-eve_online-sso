@@ -8,4 +8,3 @@ gemspec
 gem "awesome_print", require: "ap"
 gem "pry"
 gem "standard"
-gem "mdl", require: false
