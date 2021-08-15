@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-eve_online-sso (0.2.0)
+    omniauth-eve_online-sso (0.3.0)
       omniauth-oauth2
 
 GEM
