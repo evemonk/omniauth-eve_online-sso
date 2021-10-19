@@ -35,12 +35,10 @@ module OmniAuth
       def raw_info
         @raw_info ||= JWT.decode(access_token.token, nil, false)
           .find { |element| element.keys.include?("scp") }.tap do |hash|
-          hash[:character_id] = hash["sub"].split(":")[-1]
-          hash[:scopes] = hash["scp"].join(" ")
-          hash[:token_type] = hash["sub"].split(":")[0].capitalize
-          hash[:expires_on] = hash["exp"]
-          hash[:token] = access_token.token
-          hash[:refresh_token] = access_token.refresh_token
+          hash["character_id"] = hash["sub"].split(":")[-1]
+          hash["scopes"] = hash["scp"].join(" ")
+          hash["token_type"] = hash["sub"].split(":")[0].capitalize
+          hash["expires_on"] = hash["exp"]
         end
       end
     end
