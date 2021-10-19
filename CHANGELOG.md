@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.0
+
+* Update `v2` EveOnline SSO support
+
 ## v0.3.0
 
 * Migrate to `/v2/oauth/authorize` and `/v2/oauth/token`
