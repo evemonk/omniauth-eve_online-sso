@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    omniauth-eve_online-sso (0.3.0)
+    omniauth-eve_online-sso (0.4.0)
+      jwt
       omniauth-oauth2
 
 GEM
@@ -117,4 +118,4 @@ DEPENDENCIES
   standard
 
 BUNDLED WITH
-   2.2.25
+   2.2.29
