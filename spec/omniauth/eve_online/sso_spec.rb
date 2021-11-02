@@ -2,8 +2,8 @@
 
 require "spec_helper"
 
-RSpec.describe OmniAuth::Strategies::EveOnlineSso do
+RSpec.describe Omniauth::EveOnline::SSO do
   it "has a version number" do
-    expect(Omniauth::EveOnline::SSO::VERSION).not_to be nil
+    expect(described_class::VERSION).not_to be nil
   end
 end
