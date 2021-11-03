@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.0
+
+* Fix error when decoding OAuth2 tokens containing a single scope
+
 ## v0.4.0
 
 * Update `v2` EveOnline SSO support
