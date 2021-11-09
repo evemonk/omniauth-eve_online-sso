@@ -32,7 +32,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
-    hashie (4.1.0)
+    hashie (5.0.0)
     jwt (2.3.0)
     method_source (1.0.0)
     multi_json (1.15.0)
