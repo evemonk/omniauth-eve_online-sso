@@ -14,3 +14,12 @@ Bundler/OrderedGems:
 
 Layout/LineLength:
   Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
