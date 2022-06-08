@@ -33,7 +33,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     hashie (5.0.0)
-    jwt (2.4.0)
+    jwt (2.4.1)
     method_source (1.0.0)
     multi_json (1.15.0)
     multi_xml (0.6.0)
