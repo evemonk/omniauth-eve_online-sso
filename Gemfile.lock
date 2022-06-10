@@ -37,7 +37,7 @@ GEM
     method_source (1.0.0)
     multi_json (1.15.0)
     multi_xml (0.6.0)
-    multipart-post (2.2.0)
+    multipart-post (2.2.2)
     oauth2 (1.4.7)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
