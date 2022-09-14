@@ -91,7 +91,7 @@ GEM
     standard (1.16.1)
       rubocop (= 1.35.1)
       rubocop-performance (= 1.14.3)
-    unicode-display_width (2.2.0)
+    unicode-display_width (2.3.0)
     version_gem (1.1.0)
 
 PLATFORMS
