@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.6.0
+
+* Required ruby version >= 2.7
+
 ## v0.5.0
 
 * Fix error when decoding OAuth2 tokens containing a single scope
