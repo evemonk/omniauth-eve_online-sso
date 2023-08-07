@@ -46,9 +46,9 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     racc (1.7.1)
-    rack (3.0.8)
-    rack-protection (3.0.6)
-      rack
+    rack (2.2.8)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.8.1)
