@@ -21,7 +21,7 @@ GEM
     faraday-net_http (3.0.2)
     hashie (5.0.0)
     json (2.7.1)
-    jwt (2.8.0)
+    jwt (2.8.1)
       base64
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
