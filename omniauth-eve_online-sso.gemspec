@@ -7,7 +7,7 @@ require "omniauth/eve_online/sso/version"
 Gem::Specification.new do |spec|
   spec.name = "omniauth-eve_online-sso"
   spec.version = Omniauth::EveOnline::SSO::VERSION
-  spec.authors = ["Igor Zubkov"]
+  spec.authors = ["Ihor Zubkov"]
   spec.email = ["igor.zubkov@gmail.com"]
 
   spec.summary = "OmniAuth strategy for EveOnline SSO"
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 2.7"
+  spec.required_ruby_version = ">= 3.0"
 
   spec.add_dependency "omniauth-oauth2"
   spec.add_dependency "jwt"
