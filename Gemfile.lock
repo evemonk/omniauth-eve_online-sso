@@ -26,7 +26,8 @@ GEM
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
     method_source (1.1.0)
-    multi_xml (0.6.0)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
     net-http (0.4.1)
       uri
     oauth2 (2.0.9)
