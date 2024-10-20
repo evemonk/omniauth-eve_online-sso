@@ -1,8 +1,8 @@
 # Changelog
 
-## main
+## v0.7.0
 
-* Required ruby version >= 3.0
+* Required ruby version >= 3.2
 
 ## v0.6.0
 
