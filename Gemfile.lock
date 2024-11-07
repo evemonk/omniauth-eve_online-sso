@@ -31,7 +31,7 @@ GEM
     method_source (1.1.0)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
-    net-http (0.4.1)
+    net-http (0.5.0)
       uri
     oauth2 (2.0.9)
       faraday (>= 0.17.3, < 3.0)
