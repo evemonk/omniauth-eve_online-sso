@@ -41,6 +41,18 @@ module OmniAuth
           hash["expires_on"] = hash["exp"]
         end
       end
+
+      def authorize_params
+        super.tap do |params|
+          %w[scope].each do |v|
+            if request.params[v]
+              params[v.to_sym] = request.params[v]
+            end
+          end
+
+          params[:scope] ||= "publicData"
+        end
+      end
     end
   end
 end
