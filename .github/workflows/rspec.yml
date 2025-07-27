@@ -32,7 +32,7 @@ jobs:
       - run: rm Gemfile.lock
       - run: rm .ruby-version
       - name: Set up Ruby
-        uses: ruby/setup-ruby@65937904bcddfb93f8130882d9afa8597c45f3b5 # v1.249.0
+        uses: ruby/setup-ruby@bb6434c747fa7022e12fa1cae2a0951fcffcff26 # v1.253.0
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
