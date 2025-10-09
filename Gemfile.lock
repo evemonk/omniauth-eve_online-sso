@@ -59,7 +59,7 @@ GEM
       method_source (~> 1.0)
     racc (1.8.1)
     rack (3.2.2)
-    rack-protection (4.1.1)
+    rack-protection (4.2.0)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
@@ -172,7 +172,7 @@ CHECKSUMS
   pry (0.15.2) sha256=12d54b8640d3fa29c9211dd4ffb08f3fd8bf7a4fd9b5a73ce5b59c8709385b6b
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rack (3.2.2) sha256=74d20a7a17e8c6bc1fd506fa7d83ccf6b7a40869e81572928ca95346dccd92b0
-  rack-protection (4.1.1) sha256=51a254a5d574a7f0ca4f0672025ce2a5ef7c8c3bd09c431349d683e825d7d16a
+  rack-protection (4.2.0) sha256=67909eb1c29ebb52a9bdedfd4201cec70a542edd7671dbd87eae3d73d2d115bf
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   rake (13.3.0) sha256=96f5092d786ff412c62fde76f793cc0541bd84d2eb579caa529aa8a059934493
   regexp_parser (2.11.3) sha256=ca13f381a173b7a93450e53459075c9b76a10433caadcb2f1180f2c741fc55a4
