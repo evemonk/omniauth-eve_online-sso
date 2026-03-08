@@ -15,5 +15,26 @@ Bundler/OrderedGems:
 Layout/LineLength:
   Enabled: false
 
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
 Gemspec/OrderedDependencies:
   Enabled: false
+
+Naming/FileName:
+  Enabled: true
+  Exclude:
+    - "lib/omniauth-eve_online-sso.rb"
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - "spec/omniauth/strategies/eve_online_sso_spec.rb"
+
+Metrics/AbcSize:
+  Enabled: true
+  Exclude:
+    - "lib/omniauth/strategies/eve_online_sso.rb"
