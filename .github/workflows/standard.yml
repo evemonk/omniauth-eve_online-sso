@@ -1,4 +1,4 @@
-name: standardrb
+name: Standard
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions:
   contents: read
 
 jobs:
-  standardrb:
+  standard:
     runs-on: ubuntu-latest
 
     steps:
