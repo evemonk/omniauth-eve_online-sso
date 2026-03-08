@@ -97,12 +97,12 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-mail.organize_mail.v1                         |                                                                                                                              |
 | esi-mail.read_mail.v1                             |                                                                                                                              |
 | esi-mail.send_mail.v1                             |                                                                                                                              |
-| esi-markets.read_character_orders.v1              |                                                                                                                              |
-| esi-markets.read_corporation_orders.v1            |                                                                                                                              |
-| esi-markets.structure_markets.v1                  |                                                                                                                              |
-| esi-planets.manage_planets.v1                     |                                                                                                                              |
-| esi-planets.read_customs_offices.v1               |                                                                                                                              |
-| esi-search.search_structures.v1                   |                                                                                                                              |
+| `esi-markets.read_character_orders.v1`            | Allows reading a character's market orders                                                                                   |
+| `esi-markets.read_corporation_orders.v1`          | Allows reading of a character's corporation's market orders, if the character has roles to do so.                            |
+| `esi-markets.structure_markets.v1`                | Allows reading market data from a structure, if the user has market access to that structure                                 |
+| `esi-planets.manage_planets.v1`                   | Allows reading a list of a characters planetary colonies, and the details of those colonies                                  |
+| `esi-planets.read_customs_offices.v1`             | Allow reading of corporation owned customs offices                                                                           |
+| `esi-search.search_structures.v1`                 | Allows searching over all structures that a character can see in the structure browser.                                      |
 | `esi-skills.read_skillqueue.v1`                   | Allows reading of a character's currently training skill queue.                                                              |
 | `esi-skills.read_skills.v1`                       | Allows reading of a character's currently known skills.                                                                      |
 | `esi-ui.open_window.v1`                           | Allows open window in game client remotely                                                                                   |
@@ -133,12 +133,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-mail.organize_mail.v1                       | Allows updating the character's mail labels and unread status. Also allows deleting of the character's mail.                 |
 | esi-mail.read_mail.v1                           | Allows reading of the character's inbox and mails.                                                                           |
 | esi-mail.send_mail.v1                           | Allows sending of mail on the character's behalf.                                                                            |
-| esi-markets.read_character_orders.v1            | Allows reading a character's market orders                                                                                   |
-| esi-markets.read_corporation_orders.v1          | Allows reading of a character's corporation's market orders, if the character has roles to do so.                            |
-| esi-markets.structure_markets.v1                | Allows reading market data from a structure, if the user has market access to that structure                                 |
-| esi-planets.manage_planets.v1                   | Allows reading a list of a characters planetary colonies, and the details of those colonies                                  |
-| esi-planets.read_customs_offices.v1             | Allow reading of corporation owned customs offices                                                                           |
-| esi-search.search_structures.v1                 | Allows searching over all structures that a character can see in the structure browser.                                      |
 
 ## Development
 
