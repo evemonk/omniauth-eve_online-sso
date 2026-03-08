@@ -55,15 +55,15 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | `esi-characters.read_corporation_roles.v1`      | Allows reading the character's corporation roles                                           |
 | `esi-characters.read_fatigue.v1`                | Allows reading a character's jump fatigue information                                      |
 | esi-characters.read_freelance_jobs.v1           |                                                                                            |
-| esi-characters.read_fw_stats.v1                 |
-| esi-characters.read_loyalty.v1                  |
-| esi-characters.read_medals.v1                   |
-| esi-characters.read_notifications.v1            | 
-| esi-characters.read_standings.v1                |
-| esi-characters.read_titles.v1                   |
-| esi-characters.write_contacts.v1                |
-| esi-clones.read_clones.v1                       |
-| esi-clones.read_implants.v1                     |
+| `esi-characters.read_fw_stats.v1`               | Allows reading of a character's faction warfare statistics                                 |
+| `esi-characters.read_loyalty.v1`                | Allows reading a character's loyalty points                                                |
+| `esi-characters.read_medals.v1`                 | Allows reading a character's medals                                                        |
+| `esi-characters.read_notifications.v1`          | Allows reading a character's pending contact notifications                                 |
+| `esi-characters.read_standings.v1`              | Allows reading a character's standings                                                     |
+| `esi-characters.read_titles.v1`                 | Allows reading titles given to a character                                                 |
+| `esi-characters.write_contacts.v1`              | Allows management of contacts                                                              |
+| `esi-clones.read_clones.v1`                     | Allows reading the locations of a character's jump clones and their implants.              |
+| `esi-clones.read_implants.v1`                   | Allows reading a character's active clone's implants                                       |
 | esi-contracts.read_character_contracts.v1       
 | esi-contracts.read_corporation_contracts.v1     
 | esi-corporations.read_blueprints.v1             
@@ -112,15 +112,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-wallet.read_corporation_wallets.v1          
 
 
-| esi-characters.read_fw_stats.v1                 | Allows reading of a character's faction warfare statistics                                                                   |
-| esi-characters.read_loyalty.v1                  | Allows reading a character's loyalty points                                                                                  |
-| esi-characters.read_medals.v1                   | Allows reading a character's medals                                                                                          |
-| esi-characters.read_notifications.v1            | Allows reading a character's pending contact notifications                                                                   |
-| esi-characters.read_standings.v1                | Allows reading a character's standings                                                                                       |
-| esi-characters.read_titles.v1                   | Allows reading titles given to a character                                                                                   |
-| esi-characters.write_contacts.v1                | Allows management of contacts                                                                                                |
-| esi-clones.read_clones.v1                       | Allows reading the locations of a character's jump clones and their implants.                                                |
-| esi-clones.read_implants.v1                     | Allows reading a character's active clone's implants                                                                         |
 | esi-contracts.read_character_contracts.v1       | Allows reading a character's contracts                                                                                       |
 | esi-contracts.read_corporation_contracts.v1     | Allows reading a corporation's contracts                                                                                     |
 | esi-corporations.read_blueprints.v1             | Allows reading a corporation's blueprints                                                                                    |
