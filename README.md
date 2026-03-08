@@ -94,9 +94,9 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-location.read_location.v1                     |                                                                                                                              |
 | esi-location.read_online.v1                       |                                                                                                                              |
 | esi-location.read_ship_type.v1                    |                                                                                                                              |
-| esi-mail.organize_mail.v1                         |                                                                                                                              |
-| esi-mail.read_mail.v1                             |                                                                                                                              |
-| esi-mail.send_mail.v1                             |                                                                                                                              |
+| `esi-mail.organize_mail.v1`                       | Allows updating the character's mail labels and unread status. Also allows deleting of the character's mail.                 |
+| `esi-mail.read_mail.v1`                           | Allows reading of the character's inbox and mails.                                                                           |
+| `esi-mail.send_mail.v1`                           | Allows sending of mail on the character's behalf.                                                                            |
 | `esi-markets.read_character_orders.v1`            | Allows reading a character's market orders                                                                                   |
 | `esi-markets.read_corporation_orders.v1`          | Allows reading of a character's corporation's market orders, if the character has roles to do so.                            |
 | `esi-markets.structure_markets.v1`                | Allows reading market data from a structure, if the user has market access to that structure                                 |
@@ -130,9 +130,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-location.read_location.v1                   | Allows reading of a character's active ship location                                                                         |
 | esi-location.read_online.v1                     | Allows reading a character's online status                                                                                   |
 | esi-location.read_ship_type.v1                  | Allows reading of a character's active ship class                                                                            |
-| esi-mail.organize_mail.v1                       | Allows updating the character's mail labels and unread status. Also allows deleting of the character's mail.                 |
-| esi-mail.read_mail.v1                           | Allows reading of the character's inbox and mails.                                                                           |
-| esi-mail.send_mail.v1                           | Allows sending of mail on the character's behalf.                                                                            |
 
 ## Development
 
