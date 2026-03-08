@@ -13,6 +13,9 @@ Style/StringLiterals:
 Style/Documentation:
   Enabled: false
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Bundler/OrderedGems:
   Enabled: false
 
@@ -42,3 +45,22 @@ Metrics/AbcSize:
   Enabled: true
   Exclude:
     - "lib/omniauth/strategies/eve_online_sso.rb"
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/BeNil:
+  Enabled: false
+
+RSpec/SpecFilePathFormat:
+  Enabled: true
+  Exclude:
+    - "spec/omniauth/strategies/eve_online_sso_spec.rb"
+
+# Disable for now, review it later
+RSpec/VerifiedDoubleReference:
+  Enabled: false
+
+# Disable for now, review it later
+RSpec/SubjectStub:
+  Enabled: false
