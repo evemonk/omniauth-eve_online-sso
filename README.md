@@ -72,9 +72,9 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | `esi-corporations.read_corporation_membership.v1` | Allows reading a list of the ID's and roles of a character's fellow corporation members            |
 | `esi-corporations.read_divisions.v1`              | Allows reading of a character's corporation's division names, if the character has roles to do so. |
 | `esi-corporations.read_facilities.v1`             | Allows reading a corporation's facilities                                                          |
-| esi-corporations.read_freelance_jobs.v1           
-| esi-corporations.read_fw_stats.v1                 
-| esi-corporations.read_medals.v1                   
+| esi-corporations.read_freelance_jobs.v1           |                                                                                                    |
+| `esi-corporations.read_fw_stats.v1`               | Allows reading of a corporation's faction warfare statistics                                       |
+| `esi-corporations.read_medals.v1`                 | Allows reading medals created and issued by a corporation                                          |
 | esi-corporations.read_projects.v1                 
 | esi-corporations.read_standings.v1                
 | esi-corporations.read_starbases.v1                
@@ -112,8 +112,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-wallet.read_corporation_wallets.v1            
 
 
-| esi-corporations.read_fw_stats.v1               | Allows reading of a corporation's faction warfare statistics                                                                 |
-| esi-corporations.read_medals.v1                 | Allows reading medals created and issued by a corporation                                                                    |
 | esi-corporations.read_standings.v1              | Allows reading a corporation's standings                                                                                     |
 | esi-corporations.read_starbases.v1              | Allows reading of a character's corporation's starbase (POS) information, if the character has roles to do so.               |
 | esi-corporations.read_structures.v1             | Allows reading a character's corporation's structure information                                                             |
