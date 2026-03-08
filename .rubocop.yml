@@ -1,3 +1,7 @@
+plugins:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
   TargetRubyVersion: 3.2
   DisplayStyleGuide: true
