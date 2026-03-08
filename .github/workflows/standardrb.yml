@@ -1,0 +1,26 @@
+name: standardrb
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 21 * * 6"
+
+jobs:
+  standardrb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          rubygems: latest
+          bundler: latest
+      - name: run standardrb
+        run: bundle exec standardrb
