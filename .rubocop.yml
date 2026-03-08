@@ -14,3 +14,6 @@ Bundler/OrderedGems:
 
 Layout/LineLength:
   Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
