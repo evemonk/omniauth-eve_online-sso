@@ -6,6 +6,8 @@ source "https://rubygems.org"
 gemspec
 
 gem "rake"
+gem "rspec"
+gem "simplecov"
 gem "awesome_print", require: "ap"
 gem "pry"
 gem "standard"
