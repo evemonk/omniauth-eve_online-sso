@@ -51,10 +51,10 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | `esi-calendar.respond_calendar_events.v1`       | Allows updating of a character's calendar event responses                                  |
 | `esi-characters.read_agents_research.v1`        | Allows reading a character's research status with agents                                   |
 | `esi-characters.read_blueprints.v1`             | Allows reading a character's blueprints                                                    |
-| esi-characters.read_contacts.v1                 |
-| esi-characters.read_corporation_roles.v1        | 
-| esi-characters.read_fatigue.v1                  | 
-| esi-characters.read_freelance_jobs.v1           |
+| `esi-characters.read_contacts.v1`               | Allows reading of a characters contacts list, and calculation of CSPA charges              |
+| `esi-characters.read_corporation_roles.v1`      | Allows reading the character's corporation roles                                           |
+| `esi-characters.read_fatigue.v1`                | Allows reading a character's jump fatigue information                                      |
+| esi-characters.read_freelance_jobs.v1           |                                                                                            |
 | esi-characters.read_fw_stats.v1                 |
 | esi-characters.read_loyalty.v1                  |
 | esi-characters.read_medals.v1                   |
@@ -112,9 +112,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-wallet.read_corporation_wallets.v1          
 
 
-| esi-characters.read_contacts.v1                 | Allows reading of a characters contacts list, and calculation of CSPA charges                                                |
-| esi-characters.read_corporation_roles.v1        | Allows reading the character's corporation roles                                                                             |
-| esi-characters.read_fatigue.v1                  | Allows reading a character's jump fatigue information                                                                        |
 | esi-characters.read_fw_stats.v1                 | Allows reading of a character's faction warfare statistics                                                                   |
 | esi-characters.read_loyalty.v1                  | Allows reading a character's loyalty points                                                                                  |
 | esi-characters.read_medals.v1                   | Allows reading a character's medals                                                                                          |
