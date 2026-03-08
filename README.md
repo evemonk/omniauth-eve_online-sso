@@ -41,12 +41,12 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 
 ## Scopes
 
-| Scope                                           | Description                                                |
-|-------------------------------------------------|------------------------------------------------------------|
-| `publicData`                                    | Allows access to public data.                              |
-| `esi-alliances.read_contacts.v1`                | Allows reading of an alliance's contact list and standings |
-| `esi-assets.read_assets.v1`                     | Allows reading a list of assets that the character owns    |
-| esi-assets.read_corporation_assets.v1           |
+| Scope                                           | Description                                                                                |
+|-------------------------------------------------|--------------------------------------------------------------------------------------------|
+| `publicData`                                    | Allows access to public data.                                                              |
+| `esi-alliances.read_contacts.v1`                | Allows reading of an alliance's contact list and standings                                 |
+| `esi-assets.read_assets.v1`                     | Allows reading a list of assets that the character owns                                    |
+| `esi-assets.read_corporation_assets.v1`           | Allows reading of a character's corporation's assets, if the character has roles to do so. |
 | esi-calendar.read_calendar_events.v1            |
 | esi-calendar.respond_calendar_events.v1         |
 | esi-characters.read_agents_research.v1          |
@@ -114,7 +114,7 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 
 
 
-| esi-assets.read_corporation_assets.v1           | Allows reading of a character's corporation's assets, if the character has roles to do so.                                   |
+
 | esi-bookmarks.read_character_bookmarks.v1       | Allows reading of a character's bookmarks and bookmark folders                                                               |
 | esi-bookmarks.read_corporation_bookmarks.v1     | Allows reading of a corporations's bookmarks and bookmark folders                                                            |
 | esi-calendar.read_calendar_events.v1            | Allows reading a character's calendar, including corporation events                                                          |
