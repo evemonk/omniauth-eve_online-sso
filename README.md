@@ -83,8 +83,8 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-corporations.track_members.v1                 |                                                                                                                              |
 | esi-fittings.read_fittings.v1                     |                                                                                                                              |
 | esi-fittings.write_fittings.v1                    |                                                                                                                              |
-| esi-fleets.read_fleet.v1                          |                                                                                                                              |
-| esi-fleets.write_fleet.v1                         |                                                                                                                              |
+| `esi-fleets.read_fleet.v1`                        | Allows reading information about fleets                                                                                      |
+| `esi-fleets.write_fleet.v1`                       | Allows manipulating fleets                                                                                                   |
 | esi-industry.read_character_jobs.v1               |                                                                                                                              |
 | esi-industry.read_character_mining.v1             |                                                                                                                              |
 | esi-industry.read_corporation_jobs.v1             |                                                                                                                              |
@@ -119,8 +119,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-corporations.track_members.v1               | Allows tracking members' activities in a corporation                                                                         |
 | esi-fittings.read_fittings.v1                   | Allows reading information about fittings                                                                                    |
 | esi-fittings.write_fittings.v1                  | Allows manipulating fittings                                                                                                 |
-| esi-fleets.read_fleet.v1                        | Allows reading information about fleets                                                                                      |
-| esi-fleets.write_fleet.v1                       | Allows manipulating fleets                                                                                                   |
 | esi-industry.read_character_jobs.v1             | Allows reading a character's industry jobs                                                                                   |
 | esi-industry.read_character_mining.v1           | Allows reading a character's personal mining activity                                                                        |
 | esi-industry.read_corporation_jobs.v1           | Allows reading of a character's corporation's industry jobs, if the character has roles to do so.                            |
