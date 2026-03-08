@@ -103,8 +103,8 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-planets.manage_planets.v1                     |                                                                                                                              |
 | esi-planets.read_customs_offices.v1               |                                                                                                                              |
 | esi-search.search_structures.v1                   |                                                                                                                              |
-| esi-skills.read_skillqueue.v1                     |                                                                                                                              |
-| esi-skills.read_skills.v1                         |                                                                                                                              |
+| `esi-skills.read_skillqueue.v1`                   | Allows reading of a character's currently training skill queue.                                                              |
+| `esi-skills.read_skills.v1`                       | Allows reading of a character's currently known skills.                                                                      |
 | `esi-ui.open_window.v1`                           | Allows open window in game client remotely                                                                                   |
 | `esi-ui.write_waypoint.v1`                        | Allows manipulating waypoints in game client remotely                                                                        |
 | `esi-universe.read_structures.v1`                 | Allows querying the location and type of structures that the character has docking access at.                                |
@@ -139,8 +139,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-planets.manage_planets.v1                   | Allows reading a list of a characters planetary colonies, and the details of those colonies                                  |
 | esi-planets.read_customs_offices.v1             | Allow reading of corporation owned customs offices                                                                           |
 | esi-search.search_structures.v1                 | Allows searching over all structures that a character can see in the structure browser.                                      |
-| esi-skills.read_skillqueue.v1                   | Allows reading of a character's currently training skill queue.                                                              |
-| esi-skills.read_skills.v1                       | Allows reading of a character's currently known skills.                                                                      |
 
 ## Development
 
