@@ -140,7 +140,6 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   bigdecimal
-  bundler
   omniauth-eve_online-sso!
   pry
   rake
