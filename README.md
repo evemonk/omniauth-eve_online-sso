@@ -48,9 +48,9 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | `esi-assets.read_assets.v1`                     | Allows reading a list of assets that the character owns                                    |
 | `esi-assets.read_corporation_assets.v1`         | Allows reading of a character's corporation's assets, if the character has roles to do so. |
 | `esi-calendar.read_calendar_events.v1`          | Allows reading a character's calendar, including corporation events                        |
-| esi-calendar.respond_calendar_events.v1         |
-| esi-characters.read_agents_research.v1          |
-| esi-characters.read_blueprints.v1               |
+| `esi-calendar.respond_calendar_events.v1`       | Allows updating of a character's calendar event responses                                  |
+| `esi-characters.read_agents_research.v1`        | Allows reading a character's research status with agents                                   |
+| `esi-characters.read_blueprints.v1`             | Allows reading a character's blueprints                                                    |
 | esi-characters.read_contacts.v1                 |
 | esi-characters.read_corporation_roles.v1        | 
 | esi-characters.read_fatigue.v1                  | 
@@ -112,12 +112,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-wallet.read_corporation_wallets.v1          
 
 
-
-
-
-| esi-calendar.respond_calendar_events.v1         | Allows updating of a character's calendar event responses                                                                    |
-| esi-characters.read_agents_research.v1          | Allows reading a character's research status with agents                                                                     |
-| esi-characters.read_blueprints.v1               | Allows reading a character's blueprints                                                                                      |
 | esi-characters.read_contacts.v1                 | Allows reading of a characters contacts list, and calculation of CSPA charges                                                |
 | esi-characters.read_corporation_roles.v1        | Allows reading the character's corporation roles                                                                             |
 | esi-characters.read_fatigue.v1                  | Allows reading a character's jump fatigue information                                                                        |
