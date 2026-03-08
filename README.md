@@ -75,7 +75,7 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | `esi-corporations.read_freelance_jobs.v1`         | Allows reading of a corporation's freelance jobs                                                                             |
 | `esi-corporations.read_fw_stats.v1`               | Allows reading of a corporation's faction warfare statistics                                                                 |
 | `esi-corporations.read_medals.v1`                 | Allows reading medals created and issued by a corporation                                                                    |
-| esi-corporations.read_projects.v1                 |                                                                                                                              |
+| `esi-corporations.read_projects.v1`               | Allows reading of a corporation's projects                                                                                   |
 | `esi-corporations.read_standings.v1`              | Allows reading a corporation's standings                                                                                     |
 | `esi-corporations.read_starbases.v1`              | Allows reading of a character's corporation's starbase (POS) information, if the character has roles to do so.               |
 | `esi-corporations.read_structures.v1`             | Allows reading a character's corporation's structure information                                                             |
