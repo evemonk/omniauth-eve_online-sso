@@ -81,8 +81,8 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-corporations.read_structures.v1               |                                                                                                                              |
 | esi-corporations.read_titles.v1                   |                                                                                                                              |
 | esi-corporations.track_members.v1                 |                                                                                                                              |
-| esi-fittings.read_fittings.v1                     |                                                                                                                              |
-| esi-fittings.write_fittings.v1                    |                                                                                                                              |
+| `esi-fittings.read_fittings.v1`                   | Allows reading information about fittings                                                                                    |
+| `esi-fittings.write_fittings.v1`                  | Allows manipulating fittings                                                                                                 |
 | `esi-fleets.read_fleet.v1`                        | Allows reading information about fleets                                                                                      |
 | `esi-fleets.write_fleet.v1`                       | Allows manipulating fleets                                                                                                   |
 | esi-industry.read_character_jobs.v1               |                                                                                                                              |
@@ -91,9 +91,9 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-industry.read_corporation_mining.v1           |                                                                                                                              |
 | esi-killmails.read_corporation_killmails.v1       |                                                                                                                              |
 | esi-killmails.read_killmails.v1                   |                                                                                                                              |
-| esi-location.read_location.v1                     |                                                                                                                              |
-| esi-location.read_online.v1                       |                                                                                                                              |
-| esi-location.read_ship_type.v1                    |                                                                                                                              |
+| `esi-location.read_location.v1`                   | Allows reading of a character's active ship location                                                                         |
+| `esi-location.read_online.v1`                     | Allows reading a character's online status                                                                                   |
+| `esi-location.read_ship_type.v1`                  | Allows reading of a character's active ship class                                                                            |
 | `esi-mail.organize_mail.v1`                       | Allows updating the character's mail labels and unread status. Also allows deleting of the character's mail.                 |
 | `esi-mail.read_mail.v1`                           | Allows reading of the character's inbox and mails.                                                                           |
 | `esi-mail.send_mail.v1`                           | Allows sending of mail on the character's behalf.                                                                            |
@@ -117,17 +117,12 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-corporations.read_structures.v1             | Allows reading a character's corporation's structure information                                                             |
 | esi-corporations.read_titles.v1                 | Allows reading of a character's corporation's titles, if the character has roles to do so.                                   |
 | esi-corporations.track_members.v1               | Allows tracking members' activities in a corporation                                                                         |
-| esi-fittings.read_fittings.v1                   | Allows reading information about fittings                                                                                    |
-| esi-fittings.write_fittings.v1                  | Allows manipulating fittings                                                                                                 |
 | esi-industry.read_character_jobs.v1             | Allows reading a character's industry jobs                                                                                   |
 | esi-industry.read_character_mining.v1           | Allows reading a character's personal mining activity                                                                        |
 | esi-industry.read_corporation_jobs.v1           | Allows reading of a character's corporation's industry jobs, if the character has roles to do so.                            |
 | esi-industry.read_corporation_mining.v1         | Allows reading and observing a corporation's mining activity                                                                 |
 | esi-killmails.read_corporation_killmails.v1     | Allows reading of a corporation's kills and losses                                                                           |
 | esi-killmails.read_killmails.v1                 | Allows reading of a character's kills and losses                                                                             |
-| esi-location.read_location.v1                   | Allows reading of a character's active ship location                                                                         |
-| esi-location.read_online.v1                     | Allows reading a character's online status                                                                                   |
-| esi-location.read_ship_type.v1                  | Allows reading of a character's active ship class                                                                            |
 
 ## Development
 
