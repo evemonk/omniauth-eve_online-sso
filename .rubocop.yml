@@ -1,3 +1,7 @@
+plugins:
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
   TargetRubyVersion: 3.2
   DisplayStyleGuide: true
@@ -9,8 +13,54 @@ Style/StringLiterals:
 Style/Documentation:
   Enabled: false
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Bundler/OrderedGems:
   Enabled: false
 
 Layout/LineLength:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: true
+  Exclude:
+    - "lib/omniauth-eve_online-sso.rb"
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - "spec/omniauth/strategies/eve_online_sso_spec.rb"
+
+Metrics/AbcSize:
+  Enabled: true
+  Exclude:
+    - "lib/omniauth/strategies/eve_online_sso.rb"
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/BeNil:
+  Enabled: false
+
+RSpec/SpecFilePathFormat:
+  Enabled: true
+  Exclude:
+    - "spec/omniauth/strategies/eve_online_sso_spec.rb"
+
+# Disable for now, review it later
+RSpec/VerifiedDoubleReference:
+  Enabled: false
+
+# Disable for now, review it later
+RSpec/SubjectStub:
   Enabled: false
