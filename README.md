@@ -118,7 +118,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-calendar.respond_calendar_events.v1         | Allows updating of a character's calendar event responses                                                                    |
 | esi-characters.read_agents_research.v1          | Allows reading a character's research status with agents                                                                     |
 | esi-characters.read_blueprints.v1               | Allows reading a character's blueprints                                                                                      |
-| esi-characters.read_chat_channels.v1            | Allows reading a character's chat channels                                                                                   |
 | esi-characters.read_contacts.v1                 | Allows reading of a characters contacts list, and calculation of CSPA charges                                                |
 | esi-characters.read_corporation_roles.v1        | Allows reading the character's corporation roles                                                                             |
 | esi-characters.read_fatigue.v1                  | Allows reading a character's jump fatigue information                                                                        |
@@ -126,11 +125,9 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-characters.read_loyalty.v1                  | Allows reading a character's loyalty points                                                                                  |
 | esi-characters.read_medals.v1                   | Allows reading a character's medals                                                                                          |
 | esi-characters.read_notifications.v1            | Allows reading a character's pending contact notifications                                                                   |
-| esi-characters.read_opportunities.v1            | Allows reading opportunities of a character                                                                                  |
 | esi-characters.read_standings.v1                | Allows reading a character's standings                                                                                       |
 | esi-characters.read_titles.v1                   | Allows reading titles given to a character                                                                                   |
 | esi-characters.write_contacts.v1                | Allows management of contacts                                                                                                |
-| esi-characterstats.read.v1                      | Allows reading a characters aggregated statistics from the past year.                                                        |
 | esi-clones.read_clones.v1                       | Allows reading the locations of a character's jump clones and their implants.                                                |
 | esi-clones.read_implants.v1                     | Allows reading a character's active clone's implants                                                                         |
 | esi-contracts.read_character_contracts.v1       | Allows reading a character's contracts                                                                                       |
@@ -176,7 +173,6 @@ Note: scopes should be separated by spaces. E.g. `'esi-fleets.read_fleet.v1 esi-
 | esi-ui.write_waypoint.v1                        | Allows manipulating waypoints in game client remotely                                                                        |
 | esi-universe.read_structures.v1                 | Allows querying the location and type of structures that the character has docking access at.                                |
 | esi-wallet.read_character_wallet.v1             | Allows reading of a character's wallet, journal and transaction history.                                                     |
-| esi-wallet.read_corporation_wallet.v1           | EVE Mobile legacy scope                                                                                                      |
 | esi-wallet.read_corporation_wallets.v1          | Allows reading of a character's corporation's wallets, journal and transaction history, if the character has roles to do so. |
 
 ## Development
