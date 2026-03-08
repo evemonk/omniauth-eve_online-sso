@@ -10,6 +10,7 @@ updates:
       - dependency-type: "indirect"
     assignees:
       - "biow0lf"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
