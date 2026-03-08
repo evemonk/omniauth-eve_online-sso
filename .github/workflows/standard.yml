@@ -31,5 +31,4 @@ jobs:
           bundler-cache: true
           rubygems: latest
           bundler: latest
-      - name: run standardrb
-        run: bundle exec standardrb
+      - run: bundle exec standardrb
