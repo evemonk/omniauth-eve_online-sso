@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.8.1
+
+* Update list of scopes in README.md
+* Remove outdated scopes
+* Add new scopes
+* Zero code changes from v0.8.0
+
+## v0.8.0
+
+* add ability to pass scope to login post action (#702) by @sankage
+
 ## v0.7.0
 
 * Required ruby version >= 3.2
