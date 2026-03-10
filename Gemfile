@@ -10,7 +10,7 @@ gem "rspec"
 gem "simplecov"
 gem "awesome_print", require: "ap"
 gem "pry"
-gem "standard", require: false
+gem "standard", "1.54.0", require: false
 gem "rubocop", require: false
 gem "rubocop-rake", require: false
 gem "rubocop-rspec", require: false
