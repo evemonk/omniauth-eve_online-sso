@@ -122,9 +122,9 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.13.2)
     simplecov_json_formatter (0.1.4)
-    snaky_hash (2.0.6)
+    snaky_hash (2.0.7)
       hashie (>= 0.1.0, < 6)
-      version_gem (>= 1.1.8, < 3)
+      version_gem (~> 1.1, >= 1.1.14)
     standard (1.56.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -215,7 +215,7 @@ CHECKSUMS
   simplecov (0.22.0) sha256=fe2622c7834ff23b98066bb0a854284b2729a569ac659f82621fc22ef36213a5
   simplecov-html (0.13.2) sha256=bd0b8e54e7c2d7685927e8d6286466359b6f16b18cb0df47b508e8d73c777246
   simplecov_json_formatter (0.1.4) sha256=529418fbe8de1713ac2b2d612aa3daa56d316975d307244399fa4838c601b428
-  snaky_hash (2.0.6) sha256=3663cae48cdef582b517025cf8a39d8789996eaf0b4ed89e2f0624836505654a
+  snaky_hash (2.0.7) sha256=7d02c70012a3f932e48860cd024577908300c9aa615e0cb9b450aaa749cbcb4d
   standard (1.56.0) sha256=ae2af4d9669589162ac69ed5ef59dcf9f346d4afc81f7e62b84339310dfcb787
   standard-custom (1.0.2) sha256=424adc84179a074f1a2a309bb9cf7cd6bfdb2b6541f20c6bf9436c0ba22a652b
   standard-performance (1.9.0) sha256=49483d31be448292951d80e5e67cdcb576c2502103c7b40aec6f1b6e9c88e3f2
