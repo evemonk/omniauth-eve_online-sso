@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "bundler/setup"
 require "simplecov"
 
 SimpleCov.start do
@@ -8,7 +9,6 @@ SimpleCov.start do
   primary_coverage :branch
 end
 
-require "bundler/setup"
 require "omniauth-eve_online-sso"
 
 RSpec.configure do |config|
