@@ -1,4 +1,4 @@
-# EveMonk Security Policy
+# omniauth-eve_online-sso Security Policy
 
 ## Supported Versions
 
