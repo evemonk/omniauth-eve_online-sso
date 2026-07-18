@@ -1,5 +1,13 @@
 # frozen_string_literal: true
 
+require "simplecov"
+
+SimpleCov.start do
+  enable_coverage :branch
+
+  primary_coverage :branch
+end
+
 require "bundler/setup"
 require "omniauth-eve_online-sso"
 
