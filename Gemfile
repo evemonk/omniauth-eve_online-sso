@@ -7,7 +7,7 @@ gemspec
 
 gem "rake"
 gem "rspec"
-gem "simplecov"
+gem "simplecov", require: false
 gem "awesome_print", require: "ap"
 gem "pry"
 gem "standard", "1.56.0", require: false
